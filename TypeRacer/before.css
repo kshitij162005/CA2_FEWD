@@ -1,0 +1,148 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background: url("../green-back.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.scoreboard{
+    position: absolute;
+    background-color: white;
+    width: 40%;
+    height: 8%;
+    margin-top: 50px;
+    margin-left: 430px;
+    border-radius: 10px ;
+    border: 5px solid #00fc48;
+    padding-left: 3px;
+    display: flex;
+    gap: 100px
+}
+
+.scoreboard span{
+    margin-left: 15px;
+}
+
+.mistake span{
+    margin-left: 30px ;
+}
+
+.wrapper{
+    position: absolute;
+    width: 770px;
+    height: 500px;
+    padding: 35px;
+    background: #272727;
+    color: white;
+    margin-top: 230px;
+    margin-left: 350px;
+    border: 5px solid #00fc48;;
+  }
+
+  .wrapper .input-field{
+    opacity: 0;
+    /* z-index: -999; */
+    position: absolute;
+  }
+  .wrapper .content-box{
+    padding: 13px 20px 0;
+    border-radius: 10px;
+    border: 1px solid #bfbfbf;
+  }
+  .content-box .typing-text{
+    overflow: hidden;
+    max-height: 420px;
+  }
+  
+  .typing-text p{
+    font-size: 21px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-break: break-all;
+  }
+  .typing-text p span{
+    position: relative;
+  }
+  .typing-text p span.correct{
+    color: #56964f;
+  }
+  .typing-text p span.incorrect{
+    color: #cb3439;
+    outline: 1px solid #fff;
+    background: #ffc0cb;
+    border-radius: 4px;
+  }
+  .typing-text p span.active{
+    color: #fffa73;
+  }
+  .typing-text p span.active::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 5px;
+    background: #00ff26;
+    animation: blink 1s ease-in-out infinite;
+  }
+ 
+.note{
+    position: absolute;
+    color: white;
+    margin-left: 27px;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.notebox{
+    border: 3px solid white;
+    background-color: black;
+    padding: 10px;
+}
+
+#tick{
+    color: #00fc48;
+}
+
+.notebox h1{
+    font-size: 40px;
+}
+
+.report{
+    position: absolute;
+    z-index: 3;
+    color: aliceblue;
+    display: flex;
+    align-items: end;
+    height: 90%;
+    margin-left: 1200px;
+}
+
+.report button{
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #04ff4b;
+    border: 4px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.report button:hover{
+  color: white;
+  background-color: black;
+  border: 5px solid #04ff4b ;
+}

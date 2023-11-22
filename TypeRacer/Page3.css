@@ -1,0 +1,143 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Gabarito:wght@400;500&family=Lora&family=Patrick+Hand+SC&family=Poppins:ital,wght@0,600;1,200&family=Vollkorn:ital,wght@1,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Vollkorn', serif;
+}
+body{
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("./green-back.jpg");
+
+}
+
+.wrapper{
+  width: 770px;
+  padding: 55px;
+  background: #131313;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid rgb(251, 2, 2);
+}
+.wrapper .input-field{
+  z-index: -3;
+  position: absolute;
+}
+.wrapper .content-box{
+  padding: 23px 30px;
+  border-radius: 10px;
+  border: 2px solid #3cff00;
+}
+
+.result-details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(47, 255, 0);
+    border-top: 2px solid rgb(0, 255, 0);
+    padding-top: 15px;
+}
+
+.result-details .mistake{
+    color: #ff0000;
+}
+
+.result-details .time{
+    color: #26ff00;
+}
+.result-details span{
+    margin-left: 17px;
+
+}
+
+.result-details .mistake span{
+    margin-left: 25px;
+}
+.content-box .typing-text{
+  overflow: hidden;
+  max-height: 256px;
+}
+
+.typing-text p{
+  font-size: 21px;
+  text-align: justify;
+  letter-spacing: 1px;
+  word-break: break-all;
+}
+.typing-text p span{
+  position: relative;
+}
+.typing-text p span.correct{
+  color: #1aff00;
+}
+.typing-text p span.incorrect{
+  color: #ff0008;
+}
+.typing-text p span.active{
+  color: #ffea00;
+}
+
+
+.report1{
+    position: absolute;
+    top:0;
+    color: aliceblue;
+    display: flex;
+    align-items: end;
+    height: 90%;
+    margin-left: 1200px;
+}
+
+.report1 button{
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #04ff4b;
+    border: 4px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.report1 button:hover{
+    color: white;
+    background-color: black;
+    border: 5px solid #04ff4b ;
+}
+
+.note{
+  
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  text-align: center;  
+  padding-top: 10px ;
+
+}
+
+.notebox{
+  margin-left: -250px;
+  padding-right: 120px;
+  margin-top: -270px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.note span{
+  font-size: 50px;
+}

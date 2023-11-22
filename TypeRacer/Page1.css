@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./Untitled\ design.png");
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container2{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 280px;
+    margin-left: 80px;
+    gap: 90px;
+}
+
+.box{
+    border: 5px solid #00B934;
+    border-radius: 10px;
+    padding: 10px 5px;
+    color: white;
+    transition: 100ms linear;
+}
+
+.logo{
+    position: absolute;
+    display: flex;
+    margin: -100px 350px;
+
+}
+
+.instructions{
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid #00B934;
+    margin-top: 150px;
+    margin-left: -600px;
+    padding: 20px 10px;
+
+
+}
+
+
+
+
+.about{
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid #00B934;
+    margin-top: 150px;
+    margin-left: 600px;
+    padding: 40px 10px;
+
+
+}
+
+.next1{
+    position: absolute;
+    z-index: 3;
+    color: aliceblue;
+    display: flex;
+    align-items: end;
+    height: 90%;
+    margin-left: 1200px;
+}
+
+.next1 button{
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #04ff4b;
+    border: 4px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.next1 button:hover{
+    color: white;
+    background-color: black;
+    border: 5px solid #04ff4b ;
+}
+
+
+.box:hover{
+    color: #00B934;
+    border: 5px solid white;
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) and (min-width: 300px){
+    
+    
+    .container2{
+        /* position: absolute; */
+        z-index: 1;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin-left: 400px;
+        margin-top: 900px;
+        gap: 390px;
+    }
+    
+    
+    .logo img{
+        width: 800px;
+        height: 800px;
+        margin-top: 100px;
+        margin-left: -130px;
+    }
+    
+    .instructions{
+        position: absolute;
+        color: white;
+        border-radius: 10px;
+        border: 5px solid #00B934;
+    }
+    
+    
+    
+    .about{
+        position: absolute;
+        color: white;
+        width: 55%;
+        border-radius: 10px;
+        /* border: 5px solid #00B934; */
+        /* margin-top: 150px; */
+        /* margin-left: 600px; */
+    
+    }
+    
+    .next1{
+        position: absolute;
+        z-index: 3;
+        color: aliceblue;
+        display: flex;
+        align-items: end;
+        height: 90%;
+        margin-left: 1000px;
+        margin-top: 1300px;
+        width: 200px;
+    }
+    
+    .next1 button{
+        width: 180px;
+        height: 100px;
+        font-size: 60px;
+        margin:-500px;
+    }
+
+
+    
+}

@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    
+    background-image: url("./green-back.jpg");
+    z-index: -1;
+    
+}
+
+
+.message {
+    width: 500px;
+    height: 170px;
+    background-color: black;
+    display: flex;
+    margin-left: 100px;
+    border: 5px solid #00fc48;
+    margin-top: 100px;
+
+
+}
+
+.outerdiv .report{
+    color: white;
+    margin-top: 15px;
+    margin-left: 305px;
+}
+
+.playagain{
+    margin-top: 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: end;
+    height: 90%;
+    margin-left: 1200px;
+}
+
+.playagain button{
+    width: 180px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #04ff4b;
+    border: 4px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.playagain button:hover{
+    color: white;
+    background-color: black;
+    border: 5px solid #04ff4b ;
+}
+
+.parametermainbox{
+    margin-left: 800px;
+    margin-top: -20px;
+}
+
+.parameterbox{
+    width: 400px;
+    height: 370px;
+    background-color: black;
+    border: 5px solid #04ff4b ;
+    border-radius: 15px;
+    /* padding-left: 20px; */
+}
+
+.parameter{
+    color: white;
+    margin-left: 109px;
+
+}
+
+.unbeatable h2{
+    color: #04ff4b;
+
+}
+
+.unbeatable p{
+    color: white;
+}
+
+.flawless h2{
+    color: #00FFD1;
+
+}
+
+.flawless p{
+    color: white;
+}
+
+.good h2{
+    color: #FA00FF;
+
+}
+
+.good p{
+    color: white;
+}
+
+.better h2{
+    color: #FF0000;
+
+}
+
+.better p{
+    color: white;
+}
+
+.parameterbox hr{
+    color: white;
+}
+
+.unbeatable{
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.flawless{
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.good{
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.better{
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
